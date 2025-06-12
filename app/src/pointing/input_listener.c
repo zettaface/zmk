@@ -221,7 +221,7 @@ static int filter_with_input_config(const struct input_listener_config *cfg,
                     return ret;
                 }
                 if (!override->process_next) {
-                    return 0;
+                    return ret;
                 }
             }
 
